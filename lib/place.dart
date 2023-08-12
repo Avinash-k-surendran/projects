@@ -20,9 +20,9 @@ class Place extends StatelessWidget {
                     fit: BoxFit.cover)
             ),
           ),
-          SizedBox(height: 5,),
-          Text("BANGALORE",style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
-          SizedBox(height: 5,),
+         SizedBox(height: 5,),
+        Text("BANGALORE",style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
+         SizedBox(height: 5,),
 
           const Padding(padding: EdgeInsets.all(8.0),
             child: Text("is the capital and largest city of the southern Indian state of Karnataka. "
@@ -58,7 +58,8 @@ class Place extends StatelessWidget {
                 height: 40,
                 child: ElevatedButton(onPressed: (){},
                     style: ButtonStyle(
-                        shape: MaterialStatePropertyAll<RoundedRectangleBorder>(RoundedRectangleBorder(
+                        shape: MaterialStatePropertyAll<RoundedRectangleBorder>(
+                          RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10),),
                         )
                     ),child:Text("Press to Explore") )
